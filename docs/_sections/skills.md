@@ -8,13 +8,25 @@ title: >
 ### **Programming Languages**
 {: .accent-color}
 
-|Python||||||&#9733; &#9733; &#9733;|
-|Java||||||&#9733; &#9733; &#9733;|
-|Erlang||||||&#9733; &#9733; &#9733;|
+|C \| C++ \| Rust \| Python \| Shell (Bash/Ash/Nix) \| Javascript \| Typescript \| Java \| R|
 
 <!-- Empty columns in the center are used to push the second column to the end -->
 
-I ran out of underwater basket weaving related ideas, but tables like the above are also supported.
+<br/>
+
+### **Networking**
+{: .accent-color}
+
+|**Protocols**|SIP \| RTP \| DHCP \| TCP/IP \| VLAN/QoS \| LLDP|
+|**Tools**|netcat \| iperf \| Wireshark|
+
+<br/>
+
+### **Hardware**
+{: .accent-color}
+
+|**Platforms**|FPGA/HDL (Verilog) \| ARM \| MIPS|
+|**Interfaces**|RGMII/SGMII/RMII \| SPI \| TDM \| I2C \| UART \| JTAG|
 
 <br/>
 

@@ -57,11 +57,37 @@ email: harry.makes.hk@gmail.com
 ##### INTRO CONFIGURATION #####
 # The following fields configure the introduction section. Markdown is supported
 intro_title: |
-  **Hi, I'm Namecard**
+  **Harry Ho**
   {: .accent-color .jumbo-font}
 
 intro_content: |
-  ### I'm a Jekyll theme for single page CVs. Normally you'd put some description of yourself here, or flex your skills like underwater basket weaving.
+  With my ever-burning heart in tech, I have garnered both work and personal achievements in:
+
+  ### 👨‍💻 **Software Engineering** //
+
+  + low-latency network applications (video/audio streaming, VoIP)
+  + web applications & API
+  + quick prototyping
+  + project management, leadership & ownership
+  + modern SDLC practices
+  + code safety & security
+
+  ### 🐧 **OS Development** //
+
+  + Linux kernel development (C, Rust[🔗](https://github.com/HarryMakes/rust-out-of-tree-module))
+  + socket programming
+  + networking stack[🔗](https://github.com/smoltcp-rs/ENC424J600)
+  + distro customisation[🔗](https://github.com/NixOS/nixpkgs/pulls?q=author%3Aharrymakes)
+  + RTOS
+
+  ### 🛠️ **Hardware Programming** //
+
+  + object-oriented (C++) safety-first (Rust[🔗](https://github.com/quartiq/booster)) firmware
+  + open-source FPGA logic[🔗](https://github.com/m-labs/migen)
+  + RISC-V SoC footprint[🔗](https://git.m-labs.hk/M-Labs/HeavyX/src/branch/core_lib)
+  + IP libraries[🔗](https://github.com/m-labs/misoc)
+  + PHY/MAC network controllers[*](https://github.com/m-labs/misoc/pull/101)
+
   {: .secondary-font}
 
 ##### BUILD SETTINGS #####
