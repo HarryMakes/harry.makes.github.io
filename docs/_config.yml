@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you:
+# If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,23 +18,58 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+##### SITE SETTINGS #####
+# The following fields are necessary - replace the values accordingly
+title: Harry.Makes.HK
+#description: >-
+#  Write a description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+#baseurl: "/use-namecard" # the subpath of your site, e.g. /blog
+url: "https://harrymakes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-theme: minima
+##### THEME SETTINGS #####
+# [optional] Google analytics ID, e.g. UA-XXXXXXXXX-X
+google_analytics:
+
+# [optional] Hex code or CSS color code (defaults to a shade of blue)
+accent_color: # light mode accent color
+accent_color_dark: # dark mode accent color
+
+# [optional] Dark mode setting (defaults to system)
+dark_mode: # system | always | never
+
+# No action needed here, this tells Jekyll to look in the '_sections' directory
+collections:
+  - sections
+
+# [optional] Social media/contact. Links will appear under the introduction 
+#            section with the appropriate logo
+github_url: https://github.com/HarryMakes
+#stack_overflow_url: https://example.com
+#linkedin_url: https://example.com
+#facebook_url: https://example.com
+#twitter_url: https://example.com
+#youtube_url: # you can omit links
+
+email: harry.makes.hk@gmail.com
+
+##### INTRO CONFIGURATION #####
+# The following fields configure the introduction section. Markdown is supported
+intro_title: |
+  **Hi, I'm Namecard**
+  {: .accent-color .jumbo-font}
+
+intro_content: |
+  ### I'm a Jekyll theme for single page CVs. Normally you'd put some description of yourself here, or flex your skills like underwater basket weaving.
+  {: .secondary-font}
+
+##### BUILD SETTINGS #####
+# For gem-based installations, uncomment the following line and comment out 'remote_theme'
+# theme: namecard
+remote_theme: afterdusk/namecard@v0.1.3
 plugins:
-  - jekyll-feed
 
-# Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
@@ -53,9 +88,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# [HM] Per https://github.com/afterdusk/namecard?tab=readme-ov-file#2-github-pages-remote-theme, add following line:
-remote_theme: afterdusk/namecard
-
-# [HM] Per https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll, add following:
-domain: harry.makes.github.io
